@@ -45,4 +45,4 @@ else if (peso > pesoMaximo){
     console.log("El peso del producto está fuera del rango permitido.");
 }
 else  (jk);
-//soc
+//soca
