@@ -23,7 +23,10 @@ if (gramos < 20) {
     console.log("No procede la venta o cotización. El minimo permitido es de 20g");
 } else {
     console.log("¡Cotización realizada con éxito!");
-    console.log("¡-----------------------------------------!");
-    console.log("Producto seleccionado: " + productoSeleccionado);
-    console.log("Total en Soles: S/")
+    console.log("¡------------------------------------------");
+    console.log("Producto seleccionado: ", productoSeleccionado);
+    console.log("Total en Soles: S/.", totalSoles.toFixed(2));
+    console.log("Total en Dolares: $", totalDolares.toFixed(2));
+    console.log("Total en Euros: €", totalEuros.toFixed(2));
+    console.log("--------------------------------------------");
 }
