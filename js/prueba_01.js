@@ -19,7 +19,7 @@ let totalEuros = totalSoles / 4.20;
 
 
 
-if (gramos < 20) {
+if (gramo < 20) {
     console.log("No procede la venta o cotización. El minimo permitido es de 20g");
 } else {
     console.log("¡Cotización realizada con éxito!");

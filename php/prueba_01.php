@@ -19,13 +19,13 @@ $totalEuros = $totalSoles / 4.20;
 
 // FASE DE SALIDA (En PHP usamos el punto '.' para concatenar)
 if ($gramos < 20) {
-    echo "No procede la venta o cotización. El mínimo permitido es de 20 gramos.\n";
+    echo "No procede la venta o cotización. El mínimo permitido es de 20 gramos." . "<br>";
 } else {
-    echo "¡Cotización realizada con éxito!\n";
-    echo "---------------------------------------\n";
-    echo "Producto seleccionado: " . $productoSeleccionado . "\n";
-    echo "Total en Soles: S/. " . number_format($totalSoles, 2) . "\n";
-    echo "Total en Dólares: $ " . number_format($totalDolares, 2) . "\n";
-    echo "Total en Euros: € " . number_format($totalEuros, 2) . "\n";
-    echo "---------------------------------------\n";
+    echo "¡Cotización realizada con éxito!" . "<br>";
+    echo "---------------------------------------" . "<br>";
+    echo "Producto seleccionado: " . $productoSeleccionado . "<br>";
+    echo "Total en Soles: S/. " . number_format($totalSoles, 2) .  "<br>";
+    echo "Total en Dólares: $ " . number_format($totalDolares, 2) . "<br>";
+    echo "Total en Euros: € " . number_format($totalEuros, 2) . "<br>";
+    echo "---------------------------------------" . "<br>";
 }
