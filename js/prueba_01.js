@@ -13,7 +13,7 @@ let gramo = 30;
 
 // FASE DE PROCESO
 let precioGramo = precioProducto[productoSeleccionado];
-let totalSoles = gramos * precioGramos;
+let totalSoles = gramo * precioGramo;
 let totalDolares = totalSoles / 3.40;
 let totalEuros = totalSoles / 4.20;
 
